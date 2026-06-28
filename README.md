@@ -9,10 +9,18 @@ macOS 常用软件安装包本地备份仓库。
 | [balenaEtcher](https://www.balena.io/etcher/) | balenaEtcher-2.1.4-arm64.dmg | 系统镜像烧录工具，支持 SD 卡和 U 盘 *(文件过大，请从官网下载)* |
 | [BetterDisplay](https://github.com/waydabber/BetterDisplay) | BetterDisplay-v4.1.5.dmg | 显示器管理工具，支持自定义分辨率、HIDPI 等 |
 | [ClashX Meta](https://github.com/MetaCubeX/ClashX.Meta) | ClashX.Meta.zip | 代理客户端，基于 Clash.Meta 内核 |
+| [Karing](https://github.com/KaringX/karing) | Karing-1.2.20.2308-macos-universal.dmg | 跨平台代理客户端，默认基于 sing-box 内核，支持 TUN |
 | [PixPin](https://pixpinapp.com/) | PixPin_2.0.0.3_uni.dmg | 截图/录屏/贴图工具 |
 | [RDM](https://github.com/avibrazil/RDM) | RDM2.2_macOShome.com.dmg | 显示器分辨率切换工具 |
 | [UTM](https://getutm.app/) | UTM.dmg | macOS 虚拟机软件，支持运行 Windows/Linux *(文件过大，请从官网下载)* |
-| [V2rayU](https://github.com/yanue/V2rayU) | V2rayU-64.dmg | V2Ray 客户端 |
+| [V2rayU](https://github.com/yanue/V2rayU) | V2rayU-64.dmg / V2rayU-arm64-v5.1.0.dmg | V2Ray/Xray 客户端，v5.1.0 支持 sing-box TUN |
+
+## 新增版本校验
+
+| 软件 | 版本 | SHA256 |
+|------|------|--------|
+| Karing | 1.2.20.2308 | `8e09446602bdc069c2d97e4a3274dd6c28b9dc0b47837e164b32efde215905c4` |
+| V2rayU | 5.1.0 arm64 | `af31f080a97a2d4ec2aa22338a59e7f2c28600d9b62cff64c954ad1676dc6b45` |
 
 ## 使用方法
 
@@ -24,6 +32,7 @@ macOS 常用软件安装包本地备份仓库。
 
 - 请从官方网站下载最新版本以获得最佳体验和安全性
 - 本仓库仅作为本地备份使用
+- 大型安装包使用 Git LFS 管理；拉取完整文件请确保本地已安装并启用 Git LFS
 - 标注 *(文件过大，请从官网下载)* 的软件因超过 GitHub 限制，需从官网获取
 - 软件版权归各软件开发者所有
 
